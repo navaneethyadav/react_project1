@@ -1,0 +1,23 @@
+Style.css (create a file in components folder)
+h1{
+    background-color: aqua;
+    text-align: center;
+    color: bisque;
+    padding: 50px;
+}
+.mysquare{
+    width: 200px;
+    height: 200px;
+    border: 1px solid brown;
+    border-radius: 40%;
+    background-color: blueviolet;
+    animation-name: movesquare;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes movesquare
+{
+    from
+    { transform: rotate(0deg); }
+    to{transform: rotate(360deg);}
+}
